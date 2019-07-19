@@ -16,5 +16,8 @@ While this is intended as a personal project being shared publicly for education
 
 //adam
 
+# Notes
+Written in Python3, PyQt5. Forms designed in QT Creator with PyDev. QRC files compiled with aic at runtime (will not be done with a release).
+
 Disclaimer:
 Any reference to proprietary product names are trademarks of their respective trademark holders.
