@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="images">
+    <file>../images/globe.png</file>
+    <file>../images/getting-started.PNG</file>
+  </qresource>
+</RCC>
