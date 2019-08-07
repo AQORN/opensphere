@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>491</width>
-    <height>611</height>
+    <height>659</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -144,7 +144,7 @@ p, li { white-space: pre-wrap; }
    <property name="geometry">
     <rect>
      <x>250</x>
-     <y>570</y>
+     <y>620</y>
      <width>71</width>
      <height>28</height>
     </rect>
@@ -163,7 +163,7 @@ p, li { white-space: pre-wrap; }
    <property name="geometry">
     <rect>
      <x>410</x>
-     <y>570</y>
+     <y>620</y>
      <width>71</width>
      <height>28</height>
     </rect>
@@ -199,7 +199,7 @@ p, li { white-space: pre-wrap; }
     <rect>
      <x>190</x>
      <y>410</y>
-     <width>221</width>
+     <width>171</width>
      <height>22</height>
     </rect>
    </property>
@@ -217,7 +217,7 @@ p, li { white-space: pre-wrap; }
    <property name="geometry">
     <rect>
      <x>190</x>
-     <y>470</y>
+     <y>500</y>
      <width>221</width>
      <height>22</height>
     </rect>
@@ -233,7 +233,7 @@ p, li { white-space: pre-wrap; }
    <property name="geometry">
     <rect>
      <x>330</x>
-     <y>570</y>
+     <y>620</y>
      <width>71</width>
      <height>28</height>
     </rect>
@@ -252,7 +252,7 @@ p, li { white-space: pre-wrap; }
    <property name="geometry">
     <rect>
      <x>190</x>
-     <y>500</y>
+     <y>530</y>
      <width>221</width>
      <height>20</height>
     </rect>
@@ -268,7 +268,7 @@ p, li { white-space: pre-wrap; }
    <property name="geometry">
     <rect>
      <x>190</x>
-     <y>440</y>
+     <y>470</y>
      <width>221</width>
      <height>22</height>
     </rect>
@@ -281,7 +281,7 @@ p, li { white-space: pre-wrap; }
    <property name="geometry">
     <rect>
      <x>60</x>
-     <y>440</y>
+     <y>470</y>
      <width>111</width>
      <height>20</height>
     </rect>
@@ -294,7 +294,7 @@ p, li { white-space: pre-wrap; }
    <property name="geometry">
     <rect>
      <x>60</x>
-     <y>470</y>
+     <y>500</y>
      <width>111</width>
      <height>20</height>
     </rect>
@@ -307,9 +307,9 @@ p, li { white-space: pre-wrap; }
    <property name="geometry">
     <rect>
      <x>60</x>
-     <y>535</y>
-     <width>391</width>
-     <height>20</height>
+     <y>559</y>
+     <width>351</width>
+     <height>41</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -317,6 +317,64 @@ p, li { white-space: pre-wrap; }
    </property>
    <property name="text">
     <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="port_lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>440</y>
+     <width>51</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+   <property name="text">
+    <string>2221</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>440</y>
+     <width>71</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Port:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>247</x>
+     <y>440</y>
+     <width>171</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>50</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(158, 158, 158);</string>
+   </property>
+   <property name="text">
+    <string>(for SSH access to host)</string>
    </property>
   </widget>
  </widget>
